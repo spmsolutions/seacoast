@@ -1,0 +1,33 @@
+.carousel .slide {
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #000; /* Optional: To handle background when the image doesn't cover the entire space */
+}
+
+.carousel .slide img {
+	height: 100%;
+	width: auto; /* Maintain aspect ratio */
+	object-fit: cover;
+}
+
+.carousel .slide .legend {
+	font-size: 24px;
+}
+
+@media (max-width: 1024px) {
+	.carousel .slide {
+		height: auto; /* Adjust height for mobile */
+	}
+
+	.carousel .slide img {
+		width: 100%; /* Ensure the image covers the width */
+		height: auto; /* Maintain aspect ratio without stretching vertically */
+		object-fit: cover;
+	}
+
+	.carousel .slide .legend {
+		font-size: 12px;
+	}
+}

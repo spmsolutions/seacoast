@@ -1,0 +1,78 @@
+{
+	"name": "@eightshift/docs",
+	"version": "9.1.0",
+	"description": "A documentation website for Eightshift open source projects.",
+	"author": {
+		"name": "Eightshift team",
+		"email": "team@eightshift.com",
+		"url": "https://eightshift.com/"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/infinum/eightshift-docs.git"
+	},
+	"keywords": [
+		"frontend",
+		"scss",
+		"mixin",
+		"js",
+		"utility",
+		"module",
+		"WordPress"
+	],
+	"bugs": {
+		"url": "https://github.com/infinum/eightshift-docs/issues"
+	},
+	"scripts": {
+		"docusaurus": "docusaurus",
+		"start": "docusaurus start",
+		"build": "docusaurus build",
+		"predeploy": "npm run build",
+		"deploy": "gh-pages -d build",
+		"serve": "docusaurus serve",
+		"clear": "docusaurus clear",
+		"format": "prettier --write 'src/**/*.{js,jsx,ts,tsx,json,css,md}'",
+		"publish-gh-pages": "npm run build && gh-pages -d build"
+	},
+	"dependencies": {
+		"@docusaurus/core": "^3.4.0",
+		"@docusaurus/preset-classic": "^3.4.0",
+		"@eightshift/ui-components": "^1.2.2",
+		"@fortawesome/fontawesome-svg-core": "^6.6.0",
+		"@fortawesome/free-solid-svg-icons": "^6.6.0",
+		"@fortawesome/react-fontawesome": "^0.2.2",
+		"@infinum/docusaurus-theme": "^0.5.0",
+		"@mdx-js/react": "^3.0.1",
+		"@wp-playground/client": "^0.9.18",
+		"clsx": "^2.1.1",
+		"es-text-loader": "file:plugins/es-text-loader",
+		"prism-react-renderer": "^2.3.1",
+		"react": "^18.3.1",
+		"react-dom": "^18.3.1",
+		"react-responsive-carousel": "^3.2.23",
+		"react-scripts": "^5.0.1"
+	},
+	"browserslist": {
+		"production": [
+			">0.5%",
+			"not dead",
+			"not op_mini all"
+		],
+		"development": [
+			"last 1 chrome version",
+			"last 1 firefox version",
+			"last 1 safari version"
+		]
+	},
+	"devDependencies": {
+		"eslint": "^9.9.1",
+		"eslint-config-prettier": "^9.1.0",
+		"eslint-plugin-prettier": "^5.2.1",
+		"gh-pages": "^6.1.1",
+		"prettier": "^3.3.3",
+		"raw-loader": "^4.0.2"
+	},
+	"overrides": {
+		"jiti": "1.21.0"
+	}
+}
