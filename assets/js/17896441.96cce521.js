@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunk_seacoast_website=self.webpackChunk_seacoast_website||[]).push([[18401],{71608:(e,s,t)=>{t.d(s,{A:()=>u});t(96540);var a=t(25552),c=t(74848);function u(e){return(0,c.jsx)(a.V,{...e})}}}]);

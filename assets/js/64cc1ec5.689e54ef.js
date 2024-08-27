@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunk_seacoast_website=self.webpackChunk_seacoast_website||[]).push([[62461],{39537:e=>{e.exports=JSON.parse('{"metadata":{"permalink":"/seacoast/blog","page":1,"postsPerPage":10,"totalPages":2,"totalCount":17,"nextPage":"/seacoast/blog/page/2","blogDescription":"Blog","blogTitle":"Blog"}}')}}]);
