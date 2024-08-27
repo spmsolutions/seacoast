@@ -21,7 +21,7 @@ export default function AboutUs() {
         <div class="process-container">
           <div class="process-image-content">
             <img
-              src="/img/homepage/reviewing-plans.jpg"
+              src="img/homepage/reviewing-plans.jpg"
               alt="Seacoast Builders Intro"
             />
           </div>

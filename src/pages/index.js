@@ -96,7 +96,7 @@ export default function Home() {
               </div>
               <div class="image-content">
                 <img
-                  src="/img/homepage/intro-ai-home.jpg"
+                  src="img/homepage/intro-ai-home.jpg"
                   alt="Seacoast Builders Intro"
                 />
               </div>
@@ -105,7 +105,7 @@ export default function Home() {
             <div className="promise-container">
               <div className="promise-image">
                 <img
-                  src="/img/homepage/promise-cropped-couple.png"
+                  src="img/homepage/promise-cropped-couple.png"
                   alt="Seacoast Builders Promise Image"
                 />
               </div>
