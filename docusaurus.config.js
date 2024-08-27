@@ -25,7 +25,7 @@ module.exports = {
 		navbar: {
 			logo: {
 				alt: 'Seacoast Builders Logo',
-				src: '/img/logo.png',
+				src: '/img/logo.jpg',
 			},
 			items: [
 				{
