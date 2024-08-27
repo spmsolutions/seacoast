@@ -19,7 +19,7 @@ const ContactForm = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     const { name, email, message } = formData;
-    const mailtoLink = `mailto:sandra.abago@gmail.com?subject=Contact from ${encodeURIComponent(name)}&body=${encodeURIComponent(message)}%0A%0AFrom: ${encodeURIComponent(name)}%0AEmail: ${encodeURIComponent(email)}`;
+    const mailtoLink = `mailto:tim@seacoastbuilders.org?subject=Contact from ${encodeURIComponent(name)}&body=${encodeURIComponent(message)}%0A%0AFrom: ${encodeURIComponent(name)}%0AEmail: ${encodeURIComponent(email)}`;
     window.location.href = mailtoLink;
   };
 
