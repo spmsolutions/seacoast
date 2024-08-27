@@ -1,15 +1,14 @@
 {
-	"name": "@eightshift/docs",
+	"name": "@seacoast/website",
 	"version": "9.1.0",
-	"description": "A documentation website for Eightshift open source projects.",
+	"description": "A website for Seacoast Builders.",
 	"author": {
-		"name": "Eightshift team",
-		"email": "team@eightshift.com",
-		"url": "https://eightshift.com/"
+		"name": "SPM Solutions team",
+		"url": "https://github.com/spmsolutions/seacoast"
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/infinum/eightshift-docs.git"
+		"url": "git+https://github.com/spmsolutions/seacoast.git"
 	},
 	"keywords": [
 		"frontend",
@@ -21,7 +20,7 @@
 		"WordPress"
 	],
 	"bugs": {
-		"url": "https://github.com/infinum/eightshift-docs/issues"
+		"url": "https://github.com/spmsolutions/seacoast/issues"
 	},
 	"scripts": {
 		"docusaurus": "docusaurus",

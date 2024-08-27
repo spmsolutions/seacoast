@@ -13,6 +13,7 @@ module.exports = {
 	favicon: '/img/favicon.png',
 	projectName: 'seacoast-builders',
 	staticDirectories: ['static'],
+	onBrokenLinks: 'warn',
 	scripts: [
 		{
 			src: 'https://buttons.github.io/buttons.js',

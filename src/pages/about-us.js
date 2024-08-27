@@ -26,20 +26,22 @@ export default function AboutUs() {
             />
           </div>
           <div class="text-content">
-          <h2 style={{ color:  "#102a43"}}>About Us</h2>
-          The team at Seacoast Builders has been building custom homes and
-          additions throughout Boston’s metro west area for over twenty years.
-          Recently relocated to Cape Cod, Seacoast Builders continues provides
-          their quality home building services throughout Cape Cod and the
-          Islands.
-          <br></br>
-          From excavation to completion, we provide a turn-key system for our
-          customers with a focus on cape-style design and quality craftmanship
-          Our careful attention to detail and solid workmanship are the
-          cornerstones of our business. Our work is reasonably priced and backed
-          by a guarantee of integrity, honesty and a commitment to your on-going
-          satisfaction.
-            <h2 style={{ marginBottom: "20px" , marginTop: "20px"}}>Our Process</h2>
+            <h2 style={{ color: "#102a43" }}>About Us</h2>
+            The team at Seacoast Builders has been building custom homes and
+            additions throughout Boston’s metro west area for over twenty years.
+            Recently relocated to Cape Cod, Seacoast Builders continues provides
+            their quality home building services throughout Cape Cod and the
+            Islands.
+            <br></br>
+            From excavation to completion, we provide a turn-key system for our
+            customers with a focus on cape-style design and quality craftmanship
+            Our careful attention to detail and solid workmanship are the
+            cornerstones of our business. Our work is reasonably priced and
+            backed by a guarantee of integrity, honesty and a commitment to your
+            on-going satisfaction.
+            <h2 style={{ marginBottom: "20px", marginTop: "20px" }}>
+              Our Process
+            </h2>
             <p>
               Whether building a new custom home, or remodeling an existing
               home, Seacoast Builders understands that everyone wants a home

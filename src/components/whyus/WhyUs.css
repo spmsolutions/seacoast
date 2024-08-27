@@ -1,53 +1,53 @@
 .why-choose-us-container {
-	max-width: 70%;
-	margin: 0 auto;
-	text-align: center;
-	padding: 60px;
+  max-width: 70%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 60px;
 }
 
 h2 {
-	margin-bottom: 20px;
-	font-size: 2em;
-	color: #102a43;
+  margin-bottom: 20px;
+  font-size: 2em;
+  color: #102a43;
 }
 
 h3,
 h4 {
-	color: #486581;
+  color: #486581;
 }
 
 p {
-	margin-bottom: 20px;
-	font-size: 1.1em;
-	color: #102a43;
+  margin-bottom: 20px;
+  font-size: 1.1em;
+  color: #102a43;
 }
 
 .feature {
-	display: flex;
-	align-items: flex-start; /* Align items to the start for better vertical alignment */
-	margin-bottom: 20px;
-	text-align: left; /* Ensure text aligns left */
+  display: flex;
+  align-items: flex-start; /* Align items to the start for better vertical alignment */
+  margin-bottom: 20px;
+  text-align: left; /* Ensure text aligns left */
 }
 
 .feature-alternate {
-	/* Optional: If you want to alternate icon positions, but for now keep them consistent */
+  /* Optional: If you want to alternate icon positions, but for now keep them consistent */
 }
 
 .feature-text {
-	flex: 1;
-	padding-left: 20px; /* Space between icon and text */
+  flex: 1;
+  padding-left: 20px; /* Space between icon and text */
 }
 
 .icon {
-	flex-shrink: 0;
-	font-size: 4em;
-	color: #486581;
-	margin-top: 5px; /* Adjust to align icon vertically with text */
+  flex-shrink: 0;
+  font-size: 4em;
+  color: #486581;
+  margin-top: 5px; /* Adjust to align icon vertically with text */
 }
 
 @media (max-width: 1024px) {
-	.why-choose-us-container {
-		max-width: 100%;
-		padding: 20px;
-	}
+  .why-choose-us-container {
+    max-width: 100%;
+    padding: 20px;
+  }
 }

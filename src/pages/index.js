@@ -2,9 +2,7 @@ import React from "react";
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 import useBaseUrl from "@docusaurus/useBaseUrl";
 import Layout from "@theme/Layout";
-import {
-  TextCards,
-} from "@infinum/docusaurus-theme";
+import { TextCards } from "@infinum/docusaurus-theme";
 import "../theme/responsive.css";
 import Reviews from "../components/reviews/Reviews";
 import WhyChooseUs from "../components/whyus/WhyUs";
@@ -65,12 +63,13 @@ export default function Home() {
                   color: "white",
                 }}
               >
-                Find out why we have been a trusted name in the Boston metro west area for
-                over 20 years, and recently, in Cape Cod & the islands.
+                Find out why we have been a trusted name in the Boston metro
+                west area for over 20 years, and recently, in Cape Cod & the
+                islands.
               </p>
               <div style={{ marginBottom: "16px" }}>
                 <a
-                    href={useBaseUrl('contact-us')}
+                  href={useBaseUrl("contact-us")}
                   className="free-consultation"
                 >
                   Get a FREE Consultation
@@ -80,9 +79,7 @@ export default function Home() {
           </div>
         </div>
         <div style={{ position: "relative" }}>
-          <div
-        className="welcome-section"
-          >
+          <div className="welcome-section">
             <div class="container">
               <div class="text-content">
                 <h2 style={{ marginBottom: "20px" }}>
@@ -175,15 +172,13 @@ export default function Home() {
               </div>
             </div>
           </div>
-          <div
-         className="journey-cta"
-          >
+          <div className="journey-cta">
             At Seacoast Builders, we craft the backdrop for your life's precious
             moments with a commitment to excellence and a passion for design.
             Let us transform your dream into reality.
             <div style={{ marginTop: "24px" }}>
               <a
-                href={useBaseUrl('contact-us')}
+                href={useBaseUrl("contact-us")}
                 style={{
                   padding: "1rem 2rem",
                   fontSize: "1rem",
