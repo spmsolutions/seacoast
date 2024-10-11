@@ -33,7 +33,21 @@ const ContactForm = () => {
         should be a fun and exciting time, and we want to make sure that your
         experience is as pleasant as possible.
       </p>
-      <h3 style={{ textAlign: "center" }}>Call Us at 508-254-2804</h3>
+      <h3 style={{ textAlign: "center" }}>
+        Call Us at{" "}
+        <a
+          href="tel:5082542804"
+          style={{ color: "#1992D4", marginLeft: "4px" }}
+        >
+          508-254-2804
+        </a>
+      </h3>
+      <p>
+        Seacoast Builders <br></br>
+        68 Elgin Road, <br></br>
+        Pocasset, MA
+      </p>
+      <p>Email: tim@seacoastbuilders.org</p>
       <form onSubmit={handleSubmit}>
         <div className="form-group">
           <label htmlFor="name">Name</label>

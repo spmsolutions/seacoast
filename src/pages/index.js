@@ -2,9 +2,7 @@ import React from "react";
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 import useBaseUrl from "@docusaurus/useBaseUrl";
 import Layout from "@theme/Layout";
-import { TextCards } from "@infinum/docusaurus-theme";
 import "../theme/responsive.css";
-import Reviews from "../components/reviews/Reviews";
 import WhyChooseUs from "../components/whyus/WhyUs";
 
 export default function Home() {
@@ -67,14 +65,6 @@ export default function Home() {
                 west area for over 20 years, and recently, in Cape Cod & the
                 islands.
               </p>
-              <div style={{ marginBottom: "16px" }}>
-                <a
-                  href={useBaseUrl("contact-us")}
-                  className="free-consultation"
-                >
-                  Get a FREE Consultation
-                </a>
-              </div>
             </div>
           </div>
         </div>
@@ -86,17 +76,17 @@ export default function Home() {
                   Welcome to Seacoast Builders
                 </h2>
                 <p>
-                  At Seacoast Builders, we bring your dream home to life with
-                  precision and care. As custom home builders on Cape Cod and
-                  the Islands, we specialize in bespoke homes, additions, and
-                  renovations tailored to your unique style and needs. Enjoy a
-                  seamless journey with us, from concept to completion, and
-                  experience the joy of living in a home designed just for you.
+                  Seacoast Builders has been building custom homes and additions
+                  throughout Boston’s metro west area for over twenty years.
+                  Recently relocated to Cape Cod, Seacoast Builders continues
+                  provides their quality home building services throughout Cape
+                  Cod and the Islands. Our careful attention to detail and solid
+                  workmanship are the cornerstones of our business.
                 </p>
               </div>
               <div class="image-content">
                 <img
-                  src="img/homepage/intro-ai-home.jpg"
+                  src="img/homepage/handshake.jpg"
                   alt="Seacoast Builders Intro"
                 />
               </div>
@@ -105,20 +95,44 @@ export default function Home() {
             <div className="promise-container">
               <div className="promise-image">
                 <img
-                  src="img/homepage/promise-cropped-couple.png"
+                  src="img/homepage/our-promise-team.jpg"
                   alt="Seacoast Builders Promise Image"
                 />
               </div>
               <div className="promise-text">
                 <h2 style={{ marginBottom: "20px" }}>Our Promise to You</h2>
                 <p>
-                  Our commitment goes beyond construction. We understand that a
-                  home is a personal sanctuary where life unfolds and memories
-                  are made. We promise to craft a home that reflects your
-                  personality, lifestyle, and dreams. Each home we build is a
-                  testament to our dedication to quality, customization, and
-                  client satisfaction.
+                  At Seacoast Builders, our commitment to you goes beyond bricks
+                  and mortar. We understand that a home is a personal sanctuary,
+                  a place where life unfolds and memories are made. That’s why
+                  our promise to you is not just to build a house, but to craft
+                  a home that is uniquely yours, reflecting your personality,
+                  lifestyle, and dreams. Our work is backed by our guarantee of
+                  integrity, honesty and a commitment to your on-going
+                  satisfaction.
                 </p>
+              </div>
+            </div>
+
+            <div class="container">
+              <div class="text-content">
+                <h2 style={{ marginBottom: "20px" }}>Begin Your Journey</h2>
+                <p>
+                  Embark on a seamless journey with us, from concept to
+                  completion, and experience the joy of living in a home or
+                  renovation designed just for you. Every one of our projects is
+                  a testament to our dedication to quality, customization, and
+                  client satisfaction. With a commitment to excellence and a
+                  passion for design, we invite you to start your journey with
+                  us today. Contact us to learn more about how we can transform
+                  your dream into reality.
+                </p>
+              </div>
+              <div class="image-content">
+                <img
+                  src="img/portfolio/renovations/blue-white-kitchen.jpg"
+                  alt="Seacoast Builders Intro"
+                />
               </div>
             </div>
           </div>
@@ -127,7 +141,7 @@ export default function Home() {
               position: "relative",
               height: "auto",
               width: "100%",
-              minHeight: "80vh",
+              minHeight: "40vh",
             }}
           >
             <div
@@ -146,30 +160,7 @@ export default function Home() {
             <div
               style={{ position: "relative", zIndex: 2, paddingTop: "120px" }}
             >
-              {/* <div id='get-started' style={{ color: '#5B77AF', backgroundColor: '#F5F9FF' }}> */}
-              <div id="get-started" style={{ color: "#334E68" }}>
-                <TextCards
-                  title="Our Services"
-                  subtitle="From excavation to completion, we offer a comprehensive, turn-key system for our customers, specializing in cape-style design and quality craftsmanship. Our meticulous attention to detail and exceptional workmanship are the cornerstones of our business. We provide reasonably priced services, backed by a guarantee of integrity, honesty, and a commitment to your ongoing satisfaction."
-                  cards={[
-                    {
-                      title: "Custom Homes",
-                      subtitle:
-                        "At Seacoast Builders, we turn your dream home into reality with precision and care. Our custom home construction services are designed to reflect your unique style and needs, ensuring every detail is perfect. From concept to completion, we manage every aspect of the build, guaranteeing exceptional craftsmanship and a seamless experience. Trust us to create a home that is a true reflection of your vision.",
-                    },
-                    {
-                      title: "Home Additions",
-                      subtitle:
-                        "When you love your house and neighborhood but need more space, building an addition or remodeling your entire home could be the solution. A well-designed addition or remodel not only enhances functionality but also significantly boosts your home's beauty, curb appeal, and resale value. Our team of remodeling professionals will assess your current home, space utilization, and future needs to create a seamless, customized addition or reconfiguration that fits your lifestyle perfectly.",
-                    },
-                    {
-                      title: "Renovations",
-                      subtitle:
-                        "Seacoast Builders specializes in transforming your existing space into something extraordinary. Our renovation services enhance the functionality and aesthetic appeal of your home, ensuring it meets your evolving needs. Whether it's a kitchen makeover, a bathroom update, or a whole-house renovation, our attention to detail and commitment to quality will bring your vision to life. Experience the joy of a beautifully renovated home tailored to your lifestyle.",
-                    },
-                  ]}
-                />
-              </div>
+              <WhyChooseUs />
             </div>
           </div>
           <div className="journey-cta">
@@ -182,7 +173,7 @@ export default function Home() {
                 style={{
                   padding: "1rem 2rem",
                   fontSize: "1rem",
-                  backgroundColor: "#5D55FA",
+                  backgroundColor: "#1992D4",
                   border: "none",
                   borderRadius: "5px",
                   color: "white",
@@ -195,23 +186,6 @@ export default function Home() {
               </a>
             </div>
           </div>
-        </div>
-
-        <div
-          style={{
-            position: "relative",
-            height: "auto",
-            padding: "36px",
-            background: "linear-gradient(180deg, #3EBD93, #FFF3C4)",
-          }}
-        >
-          <Reviews />
-        </div>
-        <div style={{ backgroundColor: "#FFF3C4" }}>
-          <div style={{ display: "flex", justifyContent: "center" }}>
-            <hr style={{ border: "1px solid #627D98", width: "80%" }} />
-          </div>
-          <WhyChooseUs />
         </div>
       </div>
     </Layout>

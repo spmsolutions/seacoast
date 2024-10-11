@@ -22,12 +22,12 @@ export default function AboutUs() {
           <div class="process-image-content">
             <img
               src="img/homepage/reviewing-plans.jpg"
-              alt="Seacoast Builders Intro"
+              alt="Image of Seacoast Builders About Us Team Reviewing Plans"
             />
           </div>
           <div class="text-content">
             <h2 style={{ color: "#102a43" }}>About Us</h2>
-            The team at Seacoast Builders has been building custom homes and
+            <p>The team at Seacoast Builders has been building custom homes and
             additions throughout Boston’s metro west area for over twenty years.
             Recently relocated to Cape Cod, Seacoast Builders continues provides
             their quality home building services throughout Cape Cod and the
@@ -39,7 +39,8 @@ export default function AboutUs() {
             cornerstones of our business. Our work is reasonably priced and
             backed by a guarantee of integrity, honesty and a commitment to your
             on-going satisfaction.
-            <h2 style={{ marginBottom: "20px", marginTop: "20px" }}>
+            </p>
+            <h2 style={{ marginBottom: "20px", marginTop: "40px", color: "#102a43"  }}>
               Our Process
             </h2>
             <p>
@@ -48,7 +49,7 @@ export default function AboutUs() {
               which is a special place that reflects your own style and taste.
               However, for many people building a custom home or starting a
               remodeling project can be overwhelming. Where do you start? Are
-              there budget considerations? 'What about the style, design, and
+              there budget considerations? What about the style, design, and
               plans? Our process follows simple steps to ensure your vision is
               becomes a reality.
             </p>
