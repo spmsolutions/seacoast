@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunk_seacoast_website=self.webpackChunk_seacoast_website||[]).push([[81903],{1912:s=>{s.exports=JSON.parse('{"blogBasePath":"/seacoast/blog","blogTitle":"Blog","authorsListPath":"/seacoast/blog/authors"}')}}]);
