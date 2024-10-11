@@ -171,7 +171,7 @@ export default function Home() {
             Let us transform your dream into reality.
             <div style={{ marginTop: "24px" }}>
               <a
-                href="http://localhost:3000/seacoast/contact-us"
+                href={useBaseUrl("contact-us")}
                 style={{
                   padding: "1rem 2rem",
                   fontSize: "1rem",
