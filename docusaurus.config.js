@@ -26,7 +26,7 @@ module.exports = {
 			logo: {
 				alt: 'Seacoast Builders Logo',
 				src: '/img/logo.jpg',
-				height: 10
+				height: 40
 			},
 			items: [
 				{

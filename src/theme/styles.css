@@ -4,60 +4,82 @@
 @import "~@eightshift/ui-components/dist/assets/style.css";
 
 .esd-full-fixed {
-  position: fixed;
-  inset: 0;
+	position: fixed;
+	inset: 0;
 }
 
 .esd-hide-bg-on-hover.es-uic-bg-violet-50:hover,
 .esd-hide-bg-on-hover:hover .es-uic-bg-violet-50,
 .esd-hide-bg-on-hover.es-uic-bg-gray-50:hover,
 .esd-hide-bg-on-hover:hover .es-uic-bg-gray-50 {
-  --tw-bg-opacity: 0 !important;
+	--tw-bg-opacity: 0 !important;
 }
 
 .esd-white-space-pre {
-  white-space: break-spaces;
+	white-space: break-spaces;
 }
 
 .esd-icon-showcase-button {
-  width: 3.25rem !important;
-  height: 3.25rem !important;
+	width: 3.25rem !important;
+	height: 3.25rem !important;
 }
 
 .esd-icon-showcase-button svg {
-  width: 1.5rem !important;
-  height: 1.5rem !important;
+	width: 1.5rem !important;
+	height: 1.5rem !important;
 }
 
 .esd-legacy-docs-iframe {
-  min-width: 64vw;
+	min-width: 64vw;
 
-  border: 1px solid #d1d5db !important;
-  border-radius: 0.5rem !important;
+	border: 1px solid #d1d5db !important;
+	border-radius: 0.5rem !important;
 }
 
 .navbar {
-  height: 4rem !important;
-  /* background-color: #3525e6 !important; */
-  background-color: white !important;
-  .navbar__item {
-    color: dark-gray !important;
-  }
+	height: 4rem !important;
+	/* background-color: #3525e6 !important; */
+	background-color: white !important;
+	.navbar__item {
+		color: dark-gray !important;
+	}
 }
 
 .navbar__logo {
-  height: 60px !important; /* Increased height to 150px */
-  max-height: unset !important; /* Ensure the max-height is unset */
-  background-color: white !important; /* Set background color to white */
+	background-color: white !important;
 }
 
 .navbar__logo img {
-  height: 100% !important; /* Ensure the image fills the height of the container */
-  max-height: 100% !important; /* Ensure the image respects the container height */
-  object-fit: contain !important; /* Make sure the image scales properly */
+	object-fit: contain !important;
+}
+
+.navbar__logo,
+.navbar__logo .themedComponent_mlkZ,
+.navbar__logo img {
+	height: 60px !important;
+	max-height: 60px !important;
+	width: auto !important;
+	background-color: white !important;
+	object-fit: contain !important;
 }
 
 .es-footer a[href="https://infinum.com"]
 {
-  display: none;
+	display: none;
+}
+
+/* Adjust the positioning of the navbar menu button (hamburger) */
+@media (max-width: 996px) {
+	.navbar__brand {
+		margin-right: auto; /* Ensures the logo stays on the left */
+	}
+
+	.navbar__toggle {
+		margin-left: auto; /* Pushes the hamburger icon to the right */
+		margin-right: 16px; /* Adjust the margin as needed */
+	}
+
+	.navbar__items {
+		flex-direction: row-reverse;
+	}
 }

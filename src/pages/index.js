@@ -5,6 +5,8 @@ import Layout from "@theme/Layout";
 import "../theme/responsive.css";
 import WhyChooseUs from "../components/whyus/WhyUs";
 
+import Link from '@docusaurus/Link';
+
 export default function Home() {
   const context = useDocusaurusContext();
   const { siteConfig = {} } = context;
@@ -169,7 +171,7 @@ export default function Home() {
             Let us transform your dream into reality.
             <div style={{ marginTop: "24px" }}>
               <a
-                href={useBaseUrl("contact-us")}
+                href="http://localhost:3000/seacoast/contact-us"
                 style={{
                   padding: "1rem 2rem",
                   fontSize: "1rem",
