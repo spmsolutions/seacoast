@@ -17,7 +17,7 @@ export default function NewHomesGallery() {
       wrapperClassName="es-footer-white"
       style={{ backgroundColor: "#f9f9f9" }}
     >
-      <div style={{ backgroundColor: "#f9f9f9", height: "100%" }}>
+      <div className="gallery-wrapper">
         <NewHomesCarousel />
       </div>
     </Layout>

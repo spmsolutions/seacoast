@@ -17,11 +17,22 @@ export default function Services() {
       metaImage={useBaseUrl(`img/${siteConfig.customFields.image}`)}
       wrapperClassName="es-footer-white"
     >
-      <div className="services-container" style={{ height: "100%" }}>
+      <div
+        className="services-container"
+        style={{
+          height: "100%",
+          backgroundColor: "#f9f9f9",
+          fontSize: "20px",
+          fontWeight: 500,
+        }}
+      >
         <h2 style={{ color: "#102a43", textAlign: "center" }}>
           Complete Home Construction and Renovation Services
         </h2>
-        <div style={{ display: "flex", flexDirection: "column" }}>
+        <div
+          className="text-content"
+          style={{ display: "flex", flexDirection: "column" }}
+        >
           <div>
             <h2 style={{ color: "#486581", marginBottom: "18px" }}>
               Our Services
@@ -52,7 +63,7 @@ export default function Services() {
             </div>
             <div class="image-content">
               <img
-                src="img/portfolio/new-homes/single-family-home.jpg"
+                src="img/portfolio/new-homes/single-family-home.png"
                 alt="Seacoast Builders Custom home image"
                 style={{ borderRadius: "12px" }}
               />
@@ -61,7 +72,7 @@ export default function Services() {
           <div className="promise-container" style={{ maxWidth: "100%" }}>
             <div className="promise-image">
               <img
-                src="img/portfolio/additions/firestone.jpg"
+                src="img/portfolio/additions/firestone.png"
                 alt="Seacoast Builders Additions Image"
                 style={{ borderRadius: "12px" }}
               />
@@ -100,7 +111,7 @@ export default function Services() {
             </div>
             <div class="image-content">
               <img
-                src="img/portfolio/renovations/grey-kitchen.jpg"
+                src="img/portfolio/renovations/grey-kitchen.png"
                 alt="Seacoast Builders Renovations Image"
                 style={{ borderRadius: "12px" }}
               />

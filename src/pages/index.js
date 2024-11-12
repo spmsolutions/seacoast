@@ -5,8 +5,6 @@ import Layout from "@theme/Layout";
 import "../theme/responsive.css";
 import WhyChooseUs from "../components/whyus/WhyUs";
 
-import Link from '@docusaurus/Link';
-
 export default function Home() {
   const context = useDocusaurusContext();
   const { siteConfig = {} } = context;
@@ -43,7 +41,7 @@ export default function Home() {
               justifyContent: "center",
               textAlign: "left",
               color: "white",
-              backgroundColor: "rgba(0, 0, 0, 0.0)", // Optional: to add a background overlay for better text readability
+              backgroundColor: "rgba(0, 0, 0, 0.0)",
             }}
           >
             <div className="content-width">
@@ -132,7 +130,7 @@ export default function Home() {
               </div>
               <div class="image-content">
                 <img
-                  src="img/portfolio/renovations/blue-white-kitchen.jpg"
+                  src="img/portfolio/renovations/blue-white-kitchen.png"
                   alt="Seacoast Builders Intro"
                 />
               </div>
@@ -141,9 +139,9 @@ export default function Home() {
           <div
             style={{
               position: "relative",
-              height: "auto",
               width: "100%",
               minHeight: "40vh",
+              overflow: "hidden",
             }}
           >
             <div
@@ -151,17 +149,14 @@ export default function Home() {
                 position: "absolute",
                 top: 0,
                 left: 0,
-                width: "100%",
-                height: "100%",
-                background: `url(${"img/homepage/porch.jpg"}) no-repeat center center`,
-                backgroundSize: "cover",
+                right: 0,
+                bottom: 0,
+                background: `url(${useBaseUrl("img/homepage/porch.jpg")}) center center / cover`,
                 opacity: 0.1,
                 zIndex: 1,
               }}
             ></div>
-            <div
-              style={{ position: "relative", zIndex: 2, paddingTop: "120px" }}
-            >
+            <div style={{ position: "relative", zIndex: 2 }}>
               <WhyChooseUs />
             </div>
           </div>

@@ -4,7 +4,6 @@
   padding: 60px 40px;
   background-color: #f9f9f9;
   border-radius: 8px;
-  /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
 }
 
 .contact-form-container h2 {
@@ -65,9 +64,25 @@ button {
 button:hover {
   background-color: #4a627a;
 }
+.contact-info {
+  display: flex;
+  justify-content: center;
+}
+
+.contact-info-span {
+  margin: 0 12px;
+}
 
 @media (max-width: 1024px) {
   .contact-form-container {
     max-width: 100%;
+  }
+
+  .contact-info {
+    flex-direction: column;
+  }
+
+  .contact-info-span {
+    display: none;
   }
 }

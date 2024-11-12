@@ -1,33 +1,58 @@
 .carousel .slide {
-  height: 100vh;
+  max-height: 900px;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #000; /* Optional: To handle background when the image doesn't cover the entire space */
+  background-color: #fff;
 }
 
 .carousel .slide img {
   height: 100%;
-  width: auto; /* Maintain aspect ratio */
+  width: auto;
   object-fit: cover;
+}
+
+.slide > div {
+  margin: 0 40px;
 }
 
 .carousel .slide .legend {
   font-size: 24px;
 }
 
+.control-dots {
+  display: none;
+}
+
+.carousel .control-next.control-arrow:before {
+  border-left: 8px solid #000;
+}
+
+.carousel .control-prev.control-arrow:before {
+  border-right: 8px solid #000;
+}
+
 @media (max-width: 1024px) {
   .carousel .slide {
-    height: auto; /* Adjust height for mobile */
+    max-height: 600px;
   }
 
   .carousel .slide img {
-    width: 100%; /* Ensure the image covers the width */
-    height: auto; /* Maintain aspect ratio without stretching vertically */
-    object-fit: cover;
+    width: 100%;
+    height: auto;
   }
 
   .carousel .slide .legend {
     font-size: 12px;
+  }
+
+  .slide > div {
+    margin: 0 30px;
+  }
+}
+
+@media (max-width: 800px) {
+  .slide > div {
+    margin: 0 24px;
   }
 }

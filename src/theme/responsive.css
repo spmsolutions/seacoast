@@ -1,331 +1,252 @@
-/* responsive.css */
 .grid-container {
-	display: grid;
-	gap: 16px;
-	padding: 60px;
-	color: #345541;
+  display: grid;
+  gap: 16px;
+  padding: 60px;
+  color: #345541;
 }
 
 .image-style {
-	width: 100%; /* Adjust image width to fit the container */
-	height: auto; /* Maintain aspect ratio */
-	margin-top: 16px; /* Space between the image and the text */
-	border-radius: 20px;
+  width: 100%;
+  height: auto;
+  margin-top: 16px;
+  border-radius: 20px;
 }
 
 .container {
-	display: flex;
-	align-items: center;
-	justify-content: space-between;
-	padding: 80px 0px 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 80px 0px 60px;
 }
 
 .process-container {
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	width: 80%;
-	margin: auto;
-	padding: 80px 40px 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+  margin: auto;
+  padding: 80px 40px 60px;
 }
 
 .text-content {
-	flex: 1;
-	padding-right: 20px;
+  flex: 1;
+  padding-right: 20px;
 }
 
 .image-content {
-	text-align: right;
+  text-align: right;
 }
 
 .process-image-content {
-	flex: 1;
-	text-align: right;
-	padding-right: 30px;
+  flex: 1;
+  text-align: right;
+  padding-right: 30px;
 }
 
 .image-content img {
-	width: 600px;
-	height: 400px;
-	object-fit: cover;
-	border-radius: 12px;
+  width: 500px;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 12px;
 }
 
 .process-image-content img {
-	width: 500px;
-	height: 540px;
-	object-fit: cover;
+  width: 500px;
+  height: 600px;
+  object-fit: cover;
 }
 
 .promise-container {
-	display: flex;
-	align-items: center;
-	/* padding: 20px 100px 60px; */
-	margin: auto;
-	max-width: 76%;
+  display: flex;
+  align-items: center;
+  margin: auto;
+  max-width: 90%;
 }
 
 .promise-image {
-	/* flex: 1; */
-	margin-right: 40px;
+  /* flex: 1; */
+  margin-right: 40px;
 }
 
 .promise-image img {
-	height: 500px;
-	width: 500px;
-	object-fit: cover;
-	object-position: center; /* Center the image */
-	border-radius: 12px;
+  height: 400px;
+  width: 500px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 12px;
 }
 
 .promise-text {
-	flex: 3;
-	padding-left: 0;
-	text-align: right;
-	/* padding-bottom: 60px; */
+  flex: 3;
+  padding-left: 0;
+  text-align: right;
 }
 
 .welcome-section {
-	position: relative;
-	height: 1750px;
-	background: white;
-	font-size: 20px;
-	font-weight: 500;
+  position: relative;
+  background: white;
+  font-size: 20px;
+  font-weight: 500;
 }
 
 .free-consultation {
-	padding: 1rem 2rem;
-	font-size: 1rem;
-	background-color: #5d55fa;
-	border: none;
-	border-radius: 5px;
-	color: white;
-	text-decoration: none;
-	cursor: pointer;
-	font-weight: 500;
+  padding: 1rem 2rem;
+  font-size: 1rem;
+  background-color: #5d55fa;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+  font-weight: 500;
 }
 
 .journey-cta {
-	position: absolute;
-	left: 50%;
-	top: 1750px;
-	transform: translate(-50%, -50%);
-	width: 50%;
-	height: 240px;
-	background-color: #243b53;
-	color: white;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	padding: 40px;
-	border-radius: 12px;
-	display: flex;
-	flex-direction: column;
-	text-align: center;
-	font-size: 1.2rem;
-	z-index: 999;
+  width: 100%;
+  height: 300px;
+  background-color: #243b53;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 40px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-size: 1.2rem;
+  z-index: 999;
 }
 
 .journey-cta a {
-	pointer-events: auto;
+  pointer-events: auto;
 }
 
 .services-container {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: center;
-	width: 80%;
-	margin: auto;
-	padding: 80px 40px 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin: auto;
+  padding: 80px 200px 60px;
+}
+
+.gallery-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin: auto;
+  padding: 80px 40px 60px;
+}
+
+.gallery-btns {
+  display: flex;
+  gap: 2rem;
+  margin-top: 1.5rem;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.gallery-wrapper {
+  background-color: #f9f9f9;
+  height: 100%;
+}
+
+@media (max-width: 768px) {
+  .gallery-btns {
+    flex-direction: column;
+  }
 }
 
 @media (max-width: 1024px) {
-	.process-container {
-		flex-direction: column;
-		align-items: center;
-		padding: 24px;
-		width: 100%;
-	}
+  .process-container {
+    flex-direction: column;
+    align-items: center;
+    padding: 24px;
+    width: 100%;
+  }
 
-	.process-image-content {
-		padding-right: 0;
-		margin-bottom: 16px;
-	}
+  .process-image-content {
+    padding-right: 0;
+    margin-bottom: 16px;
+  }
 
-	.process-image-content img {
-		width: 100%;
-		height: 240px;
-		object-fit: cover;
-	}
+  .promise-container {
+    flex-direction: column;
+  }
 
-	.promise-container {
-		flex-direction: column;
-		/* padding: 20px 20px 60px 100px; */
-	}
+  .promise-text {
+    text-align: center;
+  }
 
-	.promise-text {
-		text-align: center;
-	}
+  .text-content {
+    text-align: center;
+  }
 
-	.text-content {
-		text-align: center;
-	}
+  .container {
+    flex-direction: column-reverse;
+    padding: 32px;
+  }
 
-	.container {
-		flex-direction: column-reverse;
-		padding: 32px;
-	}
+  .journey-cta {
+    text-align: center;
+  }
 
-	.welcome-section {
-		height: 2450px;
-	}
-
-	.journey-cta {
-		top: 2450px;
-		width: 90%;
-		text-align: center;
-	}
+  .gallery-wrapper {
+    margin-top: 30px;
+  }
 }
 
 @media (max-width: 880px) {
-	.welcome-section {
-		height: 2650px;
-	}
-
-	.journey-cta {
-		top: 2650px;
-		height: 280px;
-	}
-	.promise-container {
-		flex-direction: column;
-		/* padding: 20px 20px 60px 40px; */
-	}
+  .promise-container {
+    flex-direction: column;
+  }
 }
 
 @media (min-width: 768px) {
-	.grid-container {
-		grid-template-columns: repeat(4, 1fr);
-	}
+  .grid-container {
+    grid-template-columns: repeat(4, 1fr);
+  }
 
-	.content-width {
-		width: 60%;
-		margin-left: 10%;
-		background-color: rgba(0, 0, 0, 0.6);
-		padding: 20px;
-	}
+  .content-width {
+    width: 60%;
+    margin-left: 10%;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+  }
 }
 
 @media (max-width: 767px) {
-	.grid-container {
-		grid-template-columns: 1fr;
-		padding: 24px;
-	}
+  .grid-container {
+    grid-template-columns: 1fr;
+    padding: 24px;
+  }
 
-	.content-width {
-		width: 90%;
-		margin-left: 4%;
-		background-color: rgba(0, 0, 0, 0.6);
-		padding: 24px;
-	}
-}
-
-@media (max-width: 700px) {
-	.welcome-section {
-		height: 2690px;
-	}
-
-	.journey-cta {
-		top: 2690px;
-	}
-}
-
-@media (max-width: 616px) {
-	.welcome-section {
-		padding: 4px;
-		height: 2850px;
-	}
-
-	.journey-cta {
-		top: 2850px;
-	}
-}
-
-@media (max-width: 555px) {
-	.welcome-section {
-		padding: 4px;
-		height: 3000px;
-	}
-
-	.journey-cta {
-		top: 3000px;
-	}
-}
-
-@media (max-width: 515px) {
-	.welcome-section {
-		padding: 4px;
-		height: 3200px;
-	}
-
-	.journey-cta {
-		top: 3200px;
-	}
+  .content-width {
+    width: 90%;
+    margin-left: 4%;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 24px;
+  }
 }
 
 @media (max-width: 450px) {
-	.welcome-section {
-		padding: 4px;
-		min-height: 3150px;
-	}
+  .journey-cta {
+    width: 100%;
+  }
 
-	.journey-cta {
-		top: 3150px;
-		width: 100%;
-	}
+  .promise-image {
+    margin-right: 0;
+  }
 
-	.promise-image {
-		margin-right: 0;
-	}
+  .promise-image img {
+    height: 300px;
+  }
 
-	.promise-image img {
-		height: 300px;
-	}
-
-	.image-content img {
-		height: 300px;
-	}
-}
-
-@media (max-width: 413px) {
-	.welcome-section {
-		padding: 4px;
-		min-height: 3200px;
-	}
-
-	.journey-cta {
-		top: 3200px;
-	}
-}
-
-@media (max-width: 392px) {
-	.welcome-section {
-		padding: 4px;
-		min-height: 3450px;
-	}
-
-	.journey-cta {
-		top: 3450px;
-	}
-}
-
-@media (max-width: 350px) {
-	.welcome-section {
-		padding: 4px;
-		min-height: 3650px;
-	}
-
-	.journey-cta {
-		top: 3650px;
-	}
+  .image-content img {
+    height: 300px;
+  }
 }

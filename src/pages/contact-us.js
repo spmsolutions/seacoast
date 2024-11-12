@@ -17,7 +17,14 @@ export default function ContactUs() {
       wrapperClassName="es-footer-white"
       style={{ backgroundColor: "#f9f9f9" }}
     >
-      <div style={{ backgroundColor: "#f9f9f9", height: "100%" }}>
+      <div
+        style={{
+          backgroundColor: "#f9f9f9",
+          height: "100%",
+          fontSize: "20px",
+          fontWeight: 500,
+        }}
+      >
         <ContactForm />
       </div>
     </Layout>

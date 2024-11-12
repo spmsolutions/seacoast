@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import "./ContactForm.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faPhoneAlt, faEnvelope } from "@fortawesome/free-solid-svg-icons";
 
 const ContactForm = () => {
   const [formData, setFormData] = useState({
@@ -33,21 +35,39 @@ const ContactForm = () => {
         should be a fun and exciting time, and we want to make sure that your
         experience is as pleasant as possible.
       </p>
-      <h3 style={{ textAlign: "center" }}>
-        Call Us at{" "}
-        <a
-          href="tel:5082542804"
-          style={{ color: "#1992D4", marginLeft: "4px" }}
-        >
-          508-254-2804
-        </a>
-      </h3>
+      <div className="contact-info">
+        <p>
+          <FontAwesomeIcon
+            icon={faEnvelope}
+            style={{ marginRight: "8px", color: "#1992D4" }}
+          />
+          <a
+            href="mailto:tim@seacoastbuilders.org"
+            style={{ color: "#1992D4" }}
+          >
+            tim@seacoastbuilders.org
+          </a>
+        </p>
+        <span className="contact-info-span"> | </span>
+        <p>
+          <FontAwesomeIcon
+            icon={faPhoneAlt}
+            style={{ marginRight: "8px", color: "#1992D4" }}
+          />
+          <a
+            href="tel:5082542804"
+            style={{ color: "#1992D4", marginLeft: "4px" }}
+          >
+            508-254-2804
+          </a>
+        </p>
+      </div>
       <p>
         Seacoast Builders <br></br>
         68 Elgin Road, <br></br>
         Pocasset, MA
       </p>
-      <p>Email: tim@seacoastbuilders.org</p>
+
       <form onSubmit={handleSubmit}>
         <div className="form-group">
           <label htmlFor="name">Name</label>

@@ -7,81 +7,57 @@ const NewHomesCarousel = () => {
     <Carousel>
       <div>
         <img
-          src="img/portfolio/new-homes/woodbury-ct-home.jpg"
+          src="img/portfolio/new-homes/woodbury-ct-home.png"
           alt="Woodbury, CT custom home"
         />
-        <h3 className="legend">Custom Home - Woodbury, CT</h3>
       </div>
       <div>
         <img
-          src="img/portfolio/new-homes/grey-house.jpg"
+          src="img/portfolio/new-homes/grey-house.png"
           alt="grey custom home"
         />
-        <h3 className="legend">Custom Home</h3>
       </div>
       <div>
         <img
-          src="img/portfolio/new-homes/blue-house.jpg"
+          src="img/portfolio/new-homes/blue-house.png"
           alt="blue custom home"
         />
-        <h3 className="legend">Custom Home</h3>
       </div>
       <div>
         <img
-          src="img/portfolio/new-homes/custom_homes_needham.jpg"
+          src="img/portfolio/new-homes/custom_homes_needham.png"
           alt="Needham, MA Custom home"
         />
-        <h3 className="legend">Custom Home - Needham, MA</h3>
       </div>
       <div>
         <img
-          src="img/portfolio/new-homes/three-story-house.jpg"
+          src="img/portfolio/new-homes/three-story-house.png"
           alt="Three story house"
         />
-        <h3 className="legend">Custom Home - 3 stories</h3>
-      </div>
-
-      <div>
-        <img
-          src="img/portfolio/new-homes/custom_homes_wayland.jpg"
-          alt="Wayland, MA Custom home"
-        />
-        <h3 className="legend">Custom Home - Wayland, MA</h3>
       </div>
       <div>
         <img
-          src="img/portfolio/new-homes/single-family-home.jpg"
+          src="img/portfolio/new-homes/single-family-home.png"
           alt="Single family home"
         />
-        <h3 className="legend">Custom Home - Single Family</h3>
       </div>
       <div>
         <img
-          src="img/portfolio/new-homes/attic.jpg"
+          src="img/portfolio/new-homes/attic.png"
           alt="Custom home with attic"
         />
-        <h3 className="legend">Custom Home - With Attic</h3>
       </div>
       <div>
         <img
-          src="img/portfolio/new-homes/brick-house.jpg"
-          alt="Custom home with brick wall"
-        />
-        <h3 className="legend">Custom Home - Brick Wall</h3>
-      </div>
-      <div>
-        <img
-          src="img/portfolio/new-homes/two-story-house.jpg"
+          src="img/portfolio/new-homes/two-story-house.png"
           alt="two story house"
         />
-        <h3 className="legend">Custom Home - 2 stories</h3>
       </div>
       <div>
         <img
-          src="img/portfolio/new-homes/grey-mansion.jpg"
+          src="img/portfolio/new-homes/grey-mansion.png"
           alt="Custom grey mansion"
         />
-        <h3 className="legend">Custom Home - Mansion</h3>
       </div>
     </Carousel>
   );

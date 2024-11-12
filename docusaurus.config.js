@@ -48,15 +48,15 @@ module.exports = {
 					position: 'right',
 				},
 				{
-					// to: '/gallery',
-					// activeBasePath: 'gallery',
+					to: '/gallery',
+					activeBasePath: 'gallery',
 					label: 'Gallery',
 					position: 'right',
 					items: [
 						{
 							label: 'New Homes',
 							to: '/new-homes',
-							activeBasePath: 'gallery'
+							// activeBasePath: 'gallery'
 						},
 						{
 							label: 'Renovations & Additions',
@@ -116,7 +116,10 @@ module.exports = {
 		trailingSlash: false,
 		metadata: [
       { name: 'description', content: 'A brief description of your site' },
-      { name: 'keywords', content: 'keyword1, keyword2, keyword3' },
+      { name: 'keywords', content: `construction, custom homes,renovations, Home additions,
+				Seacoast builders,
+				Cape Cod builders,
+				Cape Cod construction` },
 			// Add Open Graph and Twitter card tags to improve how your site is displayed on social media:
 			{ name: 'og:title', content: 'Your Site Title' },
       { name: 'og:description', content: 'A brief description of your site' },

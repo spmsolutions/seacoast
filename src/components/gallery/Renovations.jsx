@@ -7,156 +7,132 @@ const RenovationsCarousel = () => {
     <Carousel>
       <div>
         <img
-          src="img/portfolio/renovations/roche-family-kitchen.jpg"
-          alt="Renovations - Roche Family Kitchen"
-        />
-        <h3 className="legend">Renovations - Roche Family Kitchen</h3>
-      </div>
-      <div>
-        <img
-          src="img/portfolio/additions/firestone.jpg"
-          alt="Sea Coast Fireplace additions"
-        />
-        <h3 className="legend">Additions - Fireplace</h3>
-      </div>
-      <div>
-        <img
-          src="img/portfolio/renovations/white-kitchen-island.jpg"
+          src="img/portfolio/renovations/white-kitchen-island.png"
           alt="Renovations - Granite kitchen Island"
         />
-        <h3 className="legend">Renovations - Granite Kitchen Island</h3>
       </div>
       <div>
         <img
-          src="img/portfolio/renovations/blue-white-kitchen.jpg"
-          alt="Renovations - Granite kitchen Island 2"
-        />
-        <h3 className="legend">Renovations - Granite Kitchen Island</h3>
-      </div>
-      <div>
-        <img
-          src="img/portfolio/renovations/grey-kitchen.jpg"
-          alt="Renovations - Granite kitchen Island 3"
-        />
-        <h3 className="legend">Renovations - Granite Kitchen Island</h3>
-      </div>
-      <div>
-        <img
-          src="img/portfolio/renovations/kitchen-dining.jpg"
-          alt="Renovations - Granite kitchen Island 4"
-        />
-        <h3 className="legend">Renovations - Granite Kitchen Island</h3>
-      </div>
-      <div>
-        <img
-          src="img/portfolio/additions/storage.jpg"
-          alt="Additions - Cabinets/Storage"
-        />
-        <h3 className="legend">Additions - Cabinets/Storage</h3>
-      </div>
-      <div>
-        <img src="img/portfolio/additions/porch.jpg" alt="Additions - Porchc" />
-        <h3 className="legend">Additions - Porch</h3>
-      </div>
-      <div>
-        <img
-          src="img/portfolio/renovations/white-kitchen.jpg"
-          alt="Renovations - White Granite kitchen Island"
-        />
-        <h3 className="legend">
-          Custom Remodel - White Granite Kitchen Island
-        </h3>
-      </div>
-      <div>
-        <img
-          src="img/portfolio/renovations/white-bathroom.jpg"
-          alt="Renovations - White bathroom"
-        />
-        <h3 className="legend">Renovations - White Bathroom</h3>
-      </div>
-      <div>
-        <img
-          src="img/portfolio/renovations/living-room.jpg"
-          alt="Renovations - Living Room"
-        />
-        <h3 className="legend">Renovations - Living Room</h3>
-      </div>
-      <div>
-        <img
-          src="img/portfolio/renovations/white-grey-kitchen.jpg"
-          alt="Renovations - Kitchen"
-        />
-        <h3 className="legend">Renovations - Kitchen</h3>
-      </div>
-      <div>
-        <img
-          src="img/portfolio/renovations/granite-kitchen-island.jpg"
-          alt="Renovations - Granite kitchen Island 5"
-        />
-        <h3 className="legend">Renovations - Granite Kitchen Island</h3>
-      </div>
-      <div>
-        <img
-          src="img/portfolio/renovations/bathroom_renovations.jpg"
-          alt="Bathroom Renovations"
-        />
-        <h3 className="legend">Renovations - Bathroom</h3>
-      </div>
-      <div>
-        <img
-          src="img/portfolio/renovations/black-white-kitchen.jpg"
-          alt="Kitchen Renovations"
-        />
-        <h3 className="legend">Renovations - Kitchen</h3>
-      </div>
-      <div>
-        <img
-          src="img/portfolio/renovations/custom_remodel_bath.jpg"
-          alt="Bathroom Custom Remodel"
-        />
-        <h3 className="legend">Custom Remodel - Bathroom</h3>
-      </div>
-      <div>
-        <img
-          src="img/portfolio/renovations/custom_remodel_laundry.jpg"
-          alt="Laundry Room Custom Remodel"
-        />
-        <h3 className="legend">Custom Remodel - Laundry Room</h3>
-      </div>
-      <div>
-        <img
-          src="img/portfolio/additions/home_addition_living.jpg"
+          src="img/portfolio/additions/home_addition_office.png"
           alt="Library or Study Room Custom Remodel"
         />
-        <h3 className="legend">Custom Remodel - Library/Study Room</h3>
       </div>
       <div>
         <img
-          src="img/portfolio/renovations/grey-white-kitchen.jpg"
-          alt="kitchen renovations"
+          src="img/portfolio/renovations/bathroom_renovations.png"
+          alt="Bathroom Renovations"
         />
-        <h3 className="legend">Renovations - Kitchen</h3>
       </div>
       <div>
         <img
-          src="img/portfolio/additions/home_addition_porch.jpg"
-          alt="Custom porch remodel"
+          src="img/portfolio/renovations/blue-white-kitchen.png"
+          alt="Renovations - Blue white kitchen"
         />
-        <h3 className="legend">Custom Remodel - Porch</h3>
       </div>
       <div>
         <img
-          src="img/portfolio/renovations/renovations_living.jpg"
+          src="img/portfolio/renovations/renovations_living.png"
           alt="Living Room Renovations"
         />
-        <h3 className="legend">Renovations - Living Room</h3>
       </div>
       <div>
         <img
-          src="img/portfolio/renovations/wood-floor-kitchen.jpg"
+          src="img/portfolio/additions/storage.png"
+          alt="Additions - Cabinets/Storage"
+        />
+      </div>
+      <div>
+        <img
+          src="img/portfolio/additions/brick-house.png"
+          alt="Custom home with brick wall"
+        />
+      </div>
+      <div>
+        <img
+          src="img/portfolio/renovations/grey-kitchen.png"
+          alt="Renovations - Grey kitchen"
+        />
+      </div>
+      <div>
+        <img
+          src="img/portfolio/renovations/kitchen-dining.png"
+          alt="Renovations - Kitchen and dining"
+        />
+      </div>
+      <div>
+        <img
+          src="img/portfolio/renovations/white-kitchen.png"
+          alt="Renovations - White Granite kitchen Island"
+        />
+      </div>
+      <div>
+        <img
+          src="img/portfolio/renovations/black-white-kitchen.png"
+          alt="Kitchen Renovations"
+        />
+      </div>
+      <div>
+        <img
+          src="img/portfolio/renovations/custom_remodel_bath.png"
+          alt="Bathroom Custom Remodel"
+        />
+      </div>
+      <div>
+        <img
+          src="img/portfolio/additions/firestone.png"
+          alt="Sea Coast Fireplace additions"
+        />
+      </div>
+      <div>
+        <img
+          src="img/portfolio/renovations/white-bathroom.png"
+          alt="Renovations - White bathroom"
+        />
+      </div>
+      <div>
+        <img
+          src="img/portfolio/renovations/living-room.png"
+          alt="Renovations - Living Room"
+        />
+      </div>
+      <div>
+        <img
+          src="img/portfolio/renovations/white-grey-kitchen.png"
+          alt="Renovations - White and Grey Kitchen"
+        />
+      </div>
+      <div>
+        <img
+          src="img/portfolio/renovations/granite-kitchen-island.png"
+          alt="Renovations - Granite kitchen Island"
+        />
+      </div>
+      <div>
+        <img
+          src="img/portfolio/renovations/custom_remodel_laundry.png"
+          alt="Laundry Room Custom Remodel"
+        />
+      </div>
+      <div>
+        <img
+          src="img/portfolio/renovations/grey-white-kitchen.png"
+          alt="kitchen renovations"
+        />
+      </div>
+      <div>
+        <img
+          src="img/portfolio/additions/home_addition_porch.png"
+          alt="Custom porch remodel"
+        />
+      </div>
+      <div>
+        <img src="img/portfolio/additions/porch.png" alt="Additions - Porch" />
+      </div>
+      <div>
+        <img
+          src="img/portfolio/renovations/wood-floor-kitchen.png"
           alt="Hardwood floor kitchen remodel"
         />
-        <h3 className="legend">Renovations - Hardwood Floor Kitchen</h3>
       </div>
     </Carousel>
   );

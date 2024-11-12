@@ -3,8 +3,8 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
-import { Navigation, Pagination } from "swiper/modules";
-import "./Reviews.css"; // Assuming you have a CSS file for styling
+import { Autoplay, Navigation, Pagination } from "swiper/modules";
+import "./Reviews.css";
 
 const reviews = [
   {
@@ -30,11 +30,15 @@ const Reviews = () => {
     <div className="reviews-container">
       <h2>What Our Clients Say</h2>
       <Swiper
-        modules={[Navigation, Pagination]}
+        modules={[Navigation, Pagination, Autoplay]}
         spaceBetween={20}
         slidesPerView={1}
         navigation
         pagination={{ clickable: true }}
+        autoplay={{
+          delay: 3000, // 3 seconds delay between slides
+          disableOnInteraction: false, // Keep autoplay even if the user interacts
+        }}
         breakpoints={{
           768: {
             slidesPerView: 1,

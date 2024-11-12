@@ -17,7 +17,14 @@ export default function AboutUs() {
       wrapperClassName="es-footer-white"
       style={{}}
     >
-      <div style={{ backgroundColor: "#f9f9f9", height: "100%" }}>
+      <div
+        style={{
+          backgroundColor: "#f9f9f9",
+          height: "100%",
+          fontSize: "20px",
+          fontWeight: 500,
+        }}
+      >
         <div class="process-container">
           <div class="process-image-content">
             <img
@@ -27,20 +34,27 @@ export default function AboutUs() {
           </div>
           <div class="text-content">
             <h2 style={{ color: "#102a43" }}>About Us</h2>
-            <p>The team at Seacoast Builders has been building custom homes and
-            additions throughout Boston’s metro west area for over twenty years.
-            Recently relocated to Cape Cod, Seacoast Builders continues provides
-            their quality home building services throughout Cape Cod and the
-            Islands.
-            <br></br>
-            From excavation to completion, we provide a turn-key system for our
-            customers with a focus on cape-style design and quality craftmanship
-            Our careful attention to detail and solid workmanship are the
-            cornerstones of our business. Our work is reasonably priced and
-            backed by a guarantee of integrity, honesty and a commitment to your
-            on-going satisfaction.
+            <p>
+              The team at Seacoast Builders has been building custom homes and
+              additions throughout Boston’s metro west area for over twenty
+              years. Recently relocated to Cape Cod, Seacoast Builders continues
+              provides their quality home building services throughout Cape Cod
+              and the Islands.
+              <br></br>
+              From excavation to completion, we provide a turn-key system for
+              our customers with a focus on cape-style design and quality
+              craftmanship Our careful attention to detail and solid workmanship
+              are the cornerstones of our business. Our work is reasonably
+              priced and backed by a guarantee of integrity, honesty and a
+              commitment to your on-going satisfaction.
             </p>
-            <h2 style={{ marginBottom: "20px", marginTop: "40px", color: "#102a43"  }}>
+            <h2
+              style={{
+                marginBottom: "20px",
+                marginTop: "40px",
+                color: "#102a43",
+              }}
+            >
               Our Process
             </h2>
             <p>
