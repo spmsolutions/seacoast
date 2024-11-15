@@ -24,14 +24,14 @@ export default function Gallery() {
         <p>Explore our projects, including New Homes and Renovations.</p>
 
         <div className="gallery-btns">
-          <div>
+          <div style={{display: 'flex', flexDirection: 'column', alignItems:'center'}}>
             <a href={useBaseUrl("/new-homes")}>
               <img
                 src={useBaseUrl("img/portfolio/new-homes/woodbury-ct-home.png")}
                 alt="Seacoast Builders Custom home image"
                 style={{
                   borderRadius: "12px",
-                  width: "280px",
+                  width: "600px",
                   marginBottom: "20px",
                 }}
               />
@@ -52,7 +52,7 @@ export default function Gallery() {
               New Homes
             </a>
           </div>
-          <div>
+          <div style={{display: 'flex', flexDirection: 'column', alignItems:'center'}}>
             <a href={useBaseUrl("/renovations")}>
               <img
                 src={useBaseUrl(
@@ -61,7 +61,7 @@ export default function Gallery() {
                 alt="Seacoast Builders Custom office image"
                 style={{
                   borderRadius: "12px",
-                  width: "280px",
+                  width: "600px",
                   marginBottom: "20px",
                 }}
               />

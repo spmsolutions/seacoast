@@ -28,7 +28,7 @@ export default function AboutUs() {
         <div class="process-container">
           <div class="process-image-content">
             <img
-              src="img/homepage/reviewing-plans.jpg"
+              src={useBaseUrl("img/homepage/reviewing-plans.jpg")}
               alt="Image of Seacoast Builders About Us Team Reviewing Plans"
             />
           </div>

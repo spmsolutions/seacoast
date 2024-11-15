@@ -23,6 +23,14 @@ const reviews = [
     text: "What makes Seacoast Builders unique is their personal touch and helpful recommendations during the design phase. Tim Bernard and his team were very easy to work with from the beginning of construction until the end. I didn't have to worry about a single aspect of the scheduling or communication and his quick response to our needs were greatly appreciated!",
     author: "NANSIE B.",
   },
+  {
+    text: "Seacoast Builders designed and built our current home. Beyond the quality of the construction and attention to detail, Tim was an absolute pleasure to work with throughout the process. From building such a high-quality home to providing assistance long after the original sale, Tim has been a great builder to work with and we are so happy that we bought our home from him.",
+    author: "NAVIN K."
+  },
+  {
+    text: "Seacoast Builders renovated our kitchen and laundry room and installed a new HVAC system. They were very easy to work with, always communicating with us and going above and beyond to quote multiple sub-contractors. They completed the project on budget and within our timeline. We would definitely hire Seacoast Builders for another project and highly recommend their services to our friends.",
+author: "LAURA T."
+  }
 ];
 
 const Reviews = () => {
@@ -35,10 +43,10 @@ const Reviews = () => {
         slidesPerView={1}
         navigation
         pagination={{ clickable: true }}
-        autoplay={{
-          delay: 3000, // 3 seconds delay between slides
-          disableOnInteraction: false, // Keep autoplay even if the user interacts
-        }}
+        // autoplay={{
+        //   delay: 3000, // 3 seconds delay between slides
+        //   disableOnInteraction: false, // Keep autoplay even if the user interacts
+        // }}
         breakpoints={{
           768: {
             slidesPerView: 1,

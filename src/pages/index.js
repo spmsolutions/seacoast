@@ -86,7 +86,7 @@ export default function Home() {
               </div>
               <div class="image-content">
                 <img
-                  src="img/homepage/handshake.jpg"
+                  src={useBaseUrl("img/homepage/handshake.jpg")}
                   alt="Seacoast Builders Intro"
                 />
               </div>
@@ -95,7 +95,7 @@ export default function Home() {
             <div className="promise-container">
               <div className="promise-image">
                 <img
-                  src="img/homepage/our-promise-team.jpg"
+                  src={useBaseUrl("img/homepage/our-promise-team.jpg")}
                   alt="Seacoast Builders Promise Image"
                 />
               </div>
@@ -130,7 +130,7 @@ export default function Home() {
               </div>
               <div class="image-content">
                 <img
-                  src="img/portfolio/renovations/blue-white-kitchen.png"
+                  src={useBaseUrl("img/portfolio/renovations/blue-white-kitchen.png")}
                   alt="Seacoast Builders Intro"
                 />
               </div>

@@ -9,6 +9,8 @@ export default function Services() {
   const context = useDocusaurusContext();
   const { siteConfig = {} } = context;
 
+  const backgroundImage = useBaseUrl("img/homepage/porch.jpg");
+
   return (
     <Layout
       title={siteConfig.title}
@@ -63,16 +65,16 @@ export default function Services() {
             </div>
             <div class="image-content">
               <img
-                src="img/portfolio/new-homes/single-family-home.png"
+                src={useBaseUrl("img/portfolio/new-homes/single-family-home.png")}
                 alt="Seacoast Builders Custom home image"
                 style={{ borderRadius: "12px" }}
               />
             </div>
           </div>
-          <div className="promise-container" style={{ maxWidth: "100%" }}>
+          <div className="promise-container" style={{width: '100%'}}>
             <div className="promise-image">
               <img
-                src="img/portfolio/additions/firestone.png"
+                src={useBaseUrl("img/portfolio/new-homes/three-story-house.png")}
                 alt="Seacoast Builders Additions Image"
                 style={{ borderRadius: "12px" }}
               />
@@ -111,7 +113,7 @@ export default function Services() {
             </div>
             <div class="image-content">
               <img
-                src="img/portfolio/renovations/grey-kitchen.png"
+                src={useBaseUrl("img/portfolio/renovations/grey-kitchen.png")}
                 alt="Seacoast Builders Renovations Image"
                 style={{ borderRadius: "12px" }}
               />
@@ -134,7 +136,7 @@ export default function Services() {
             left: 0,
             width: "100%",
             height: "100%",
-            background: `url(${"img/homepage/porch.jpg"}) no-repeat center center`,
+            background: `url(${backgroundImage}) no-repeat center center`,
             backgroundSize: "cover",
             opacity: 0.1,
             zIndex: 1,
