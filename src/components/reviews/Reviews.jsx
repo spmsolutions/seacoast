@@ -25,12 +25,12 @@ const reviews = [
   },
   {
     text: "Seacoast Builders designed and built our current home. Beyond the quality of the construction and attention to detail, Tim was an absolute pleasure to work with throughout the process. From building such a high-quality home to providing assistance long after the original sale, Tim has been a great builder to work with and we are so happy that we bought our home from him.",
-    author: "NAVIN K."
+    author: "NAVIN K.",
   },
   {
     text: "Seacoast Builders renovated our kitchen and laundry room and installed a new HVAC system. They were very easy to work with, always communicating with us and going above and beyond to quote multiple sub-contractors. They completed the project on budget and within our timeline. We would definitely hire Seacoast Builders for another project and highly recommend their services to our friends.",
-author: "LAURA T."
-  }
+    author: "LAURA T.",
+  },
 ];
 
 const Reviews = () => {

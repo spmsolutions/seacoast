@@ -6,9 +6,9 @@ module.exports = {
 	title: 'Seacoast Builders',
 	tagline:
 		'Seacoast builders - The Best Custom Homes, Renovations & Additions for your Dream Home',
-		url: 'https://spmsolutions.github.io', // The base URL for your GitHub Pages site
+		url: 'seacoastbuilders.org', // The base URL for your GitHub Pages site
   baseUrl: '/seacoast/', // Base URL for your project. Should match your repository name.
-  organizationName: 'spmsolutions', // Your GitHub organization name
+  organizationName: 'seacost builders', // Your GitHub organization name
 	projectName: 'seacoast-builders',
 	favicon: '/img/favicon.png',
 	projectName: 'seacoast-builders',
@@ -23,11 +23,11 @@ module.exports = {
 	],
 	themeConfig: {
 		navbar: {
-			logo: {
-				alt: 'Seacoast Builders Logo',
-				src: '/img/logo.jpg',
-				height: 40
-			},
+			// logo: {
+			// 	alt: 'Seacoast Builders Logo',
+			// 	src: '/img/logo.jpg',
+			// 	height: 40
+			// },
 			items: [
 				{
 					to: '/',

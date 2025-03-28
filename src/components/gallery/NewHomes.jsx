@@ -32,12 +32,6 @@ const NewHomesCarousel = () => {
       </div>
       <div>
         <img
-          src={useBaseUrl("img/portfolio/new-homes/three-story-house.png")}
-          alt="Three story house"
-        />
-      </div>
-      <div>
-        <img
           src={useBaseUrl("img/portfolio/new-homes/single-family-home.png")}
           alt="Single family home"
         />

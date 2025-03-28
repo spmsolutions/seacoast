@@ -15,11 +15,11 @@ export default function ContactUs() {
       keywords={siteConfig.customFields.keywords}
       metaImage={useBaseUrl(`img/${siteConfig.customFields.image}`)}
       wrapperClassName="es-footer-white"
-      style={{ backgroundColor: "#f9f9f9" }}
+      style={{ backgroundColor: "white" }}
     >
       <div
         style={{
-          backgroundColor: "#f9f9f9",
+          backgroundColor: "white",
           height: "100%",
           fontSize: "20px",
           fontWeight: 500,

@@ -23,7 +23,7 @@ export default function Home() {
           style={{
             position: "relative",
             width: "100%",
-            minHeight: "80vh",
+            minHeight: "100vh",
             background: `url(${useBaseUrl("img/homepage/porch.jpg")}) no-repeat center center`,
             backgroundSize: "cover",
           }}
@@ -31,7 +31,21 @@ export default function Home() {
           <div
             style={{
               position: "absolute",
-              top: 0,
+              top: "24px", // Adjust as needed
+              left: "20px", // Adjust as needed
+              zIndex: 10,
+            }}
+          >
+            <img
+              src={useBaseUrl("img/logo.jpg")} // Replace with your logo path
+              alt="Seacoast Builders Logo"
+              style={{ height: "180px" }} // Adjust size as needed
+            />
+          </div>
+          <div
+            style={{
+              position: "absolute",
+              top: 120,
               left: 0,
               width: "100%",
               height: "100%",
@@ -130,7 +144,9 @@ export default function Home() {
               </div>
               <div class="image-content">
                 <img
-                  src={useBaseUrl("img/portfolio/renovations/blue-white-kitchen.png")}
+                  src={useBaseUrl(
+                    "img/portfolio/renovations/blue-white-kitchen.png",
+                  )}
                   alt="Seacoast Builders Intro"
                 />
               </div>

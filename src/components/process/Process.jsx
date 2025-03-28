@@ -59,7 +59,7 @@ const ProcessTimeline = () => {
           key={index}
           className={`timeline-step step-${index % 2 === 0 ? "right" : "left"}`}
         >
-          <div className="content">
+          <div className="content" style={{ backgroundColor: "#f9f9f9" }}>
             <div className="step-number">{index + 1}</div>
             <h3>{step.title}</h3>
             <p>{step.description}</p>

@@ -20,10 +20,24 @@ export default function Services() {
       wrapperClassName="es-footer-white"
     >
       <div
+        style={{
+          position: "absolute",
+          top: "64px",
+          left: "20px",
+          zIndex: 10,
+        }}
+      >
+        <img
+          src={useBaseUrl("img/logo.jpg")}
+          alt="Seacoast Builders Logo"
+          style={{ height: "180px" }}
+        />
+      </div>
+      <div
         className="services-container"
         style={{
           height: "100%",
-          backgroundColor: "#f9f9f9",
+          backgroundColor: "white",
           fontSize: "20px",
           fontWeight: 500,
         }}
@@ -65,16 +79,20 @@ export default function Services() {
             </div>
             <div class="image-content">
               <img
-                src={useBaseUrl("img/portfolio/new-homes/single-family-home.png")}
+                src={useBaseUrl(
+                  "img/portfolio/new-homes/single-family-home.png",
+                )}
                 alt="Seacoast Builders Custom home image"
                 style={{ borderRadius: "12px" }}
               />
             </div>
           </div>
-          <div className="promise-container" style={{width: '100%'}}>
+          <div className="promise-container" style={{ width: "100%" }}>
             <div className="promise-image">
               <img
-                src={useBaseUrl("img/portfolio/new-homes/three-story-house.png")}
+                src={useBaseUrl(
+                  "img/portfolio/new-homes/three-story-house.png",
+                )}
                 alt="Seacoast Builders Additions Image"
                 style={{ borderRadius: "12px" }}
               />

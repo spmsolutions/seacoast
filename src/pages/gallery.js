@@ -17,6 +17,20 @@ export default function Gallery() {
       style={{ backgroundColor: "#f9f9f9" }}
     >
       <div
+        style={{
+          position: "absolute",
+          top: "64px",
+          left: "20px",
+          zIndex: 10,
+        }}
+      >
+        <img
+          src={useBaseUrl("img/logo.jpg")}
+          alt="Seacoast Builders Logo"
+          style={{ height: "180px" }}
+        />
+      </div>
+      <div
         className="gallery-container"
         style={{ height: "100%", fontSize: "20px", fontWeight: 500 }}
       >
@@ -24,7 +38,13 @@ export default function Gallery() {
         <p>Explore our projects, including New Homes and Renovations.</p>
 
         <div className="gallery-btns">
-          <div style={{display: 'flex', flexDirection: 'column', alignItems:'center'}}>
+          <div
+            style={{
+              display: "flex",
+              flexDirection: "column",
+              alignItems: "center",
+            }}
+          >
             <a href={useBaseUrl("/new-homes")}>
               <img
                 src={useBaseUrl("img/portfolio/new-homes/woodbury-ct-home.png")}
@@ -52,7 +72,13 @@ export default function Gallery() {
               New Homes
             </a>
           </div>
-          <div style={{display: 'flex', flexDirection: 'column', alignItems:'center'}}>
+          <div
+            style={{
+              display: "flex",
+              flexDirection: "column",
+              alignItems: "center",
+            }}
+          >
             <a href={useBaseUrl("/renovations")}>
               <img
                 src={useBaseUrl(

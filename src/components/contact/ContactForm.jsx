@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "./ContactForm.css";
+import useBaseUrl from "@docusaurus/useBaseUrl";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPhoneAlt, faEnvelope } from "@fortawesome/free-solid-svg-icons";
 
@@ -27,6 +28,20 @@ const ContactForm = () => {
 
   return (
     <div className="contact-form-container">
+      <div
+        style={{
+          position: "absolute",
+          top: "64px",
+          left: "20px",
+          zIndex: 10,
+        }}
+      >
+        <img
+          src={useBaseUrl("img/logo.jpg")}
+          alt="Seacoast Builders Logo"
+          style={{ height: "180px" }}
+        />
+      </div>
       <h2>Contact Us TODAY</h2>
       <p>
         New home construction services from Seacoast Builders are expertly
@@ -78,6 +93,7 @@ const ContactForm = () => {
             value={formData.name}
             onChange={handleChange}
             required
+            style={{ backgroundColor: "#f9f9f9" }}
           />
         </div>
         <div className="form-group">
@@ -89,6 +105,7 @@ const ContactForm = () => {
             value={formData.email}
             onChange={handleChange}
             required
+            style={{ backgroundColor: "#f9f9f9" }}
           />
         </div>
         <div className="form-group">
@@ -99,6 +116,7 @@ const ContactForm = () => {
             value={formData.message}
             onChange={handleChange}
             required
+            style={{ backgroundColor: "#f9f9f9" }}
           ></textarea>
         </div>
         <button type="submit" style={{ backgroundColor: "#1992D4" }}>

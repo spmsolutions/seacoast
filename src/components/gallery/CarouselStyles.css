@@ -1,58 +1,58 @@
 .carousel .slide {
-  max-height: 900px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: #fff;
+	max-height: 900px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #fff;
 }
 
 .carousel .slide img {
-  height: 100%;
-  width: auto;
-  object-fit: cover;
+	height: 100%;
+	width: auto;
+	object-fit: cover;
 }
 
 .slide > div {
-  margin: 0 40px;
+	margin: 20px 200px;
 }
 
 .carousel .slide .legend {
-  font-size: 24px;
+	font-size: 24px;
 }
 
 .control-dots {
-  display: none;
+	display: none;
 }
 
 .carousel .control-next.control-arrow:before {
-  border-left: 8px solid #000;
+	border-left: 8px solid #000;
 }
 
 .carousel .control-prev.control-arrow:before {
-  border-right: 8px solid #000;
+	border-right: 8px solid #000;
 }
 
 @media (max-width: 1024px) {
-  .carousel .slide {
-    max-height: 600px;
-  }
+	.carousel .slide {
+		max-height: 600px;
+	}
 
-  .carousel .slide img {
-    width: 100%;
-    height: auto;
-  }
+	.carousel .slide img {
+		width: 100%;
+		height: auto;
+	}
 
-  .carousel .slide .legend {
-    font-size: 12px;
-  }
+	.carousel .slide .legend {
+		font-size: 12px;
+	}
 
-  .slide > div {
-    margin: 0 30px;
-  }
+	.slide > div {
+		margin: 0 30px;
+	}
 }
 
 @media (max-width: 800px) {
-  .slide > div {
-    margin: 0 24px;
-  }
+	.slide > div {
+		margin: 0 24px;
+	}
 }

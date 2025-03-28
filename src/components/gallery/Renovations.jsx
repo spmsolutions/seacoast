@@ -26,6 +26,12 @@ const RenovationsCarousel = () => {
       </div>
       <div>
         <img
+          src={useBaseUrl("img/portfolio/new-homes/three-story-house.png")}
+          alt="Three story house"
+        />
+      </div>
+      <div>
+        <img
           src={useBaseUrl("img/portfolio/renovations/blue-white-kitchen.png")}
           alt="Renovations - Blue white kitchen"
         />
@@ -104,13 +110,17 @@ const RenovationsCarousel = () => {
       </div>
       <div>
         <img
-          src={useBaseUrl("img/portfolio/renovations/granite-kitchen-island.png")}
+          src={useBaseUrl(
+            "img/portfolio/renovations/granite-kitchen-island.png",
+          )}
           alt="Renovations - Granite kitchen Island"
         />
       </div>
       <div>
         <img
-          src={useBaseUrl("img/portfolio/renovations/custom_remodel_laundry.png")}
+          src={useBaseUrl(
+            "img/portfolio/renovations/custom_remodel_laundry.png",
+          )}
           alt="Laundry Room Custom Remodel"
         />
       </div>
