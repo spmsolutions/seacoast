@@ -6,7 +6,7 @@ module.exports = {
 	title: 'Seacoast Builders',
 	tagline:
 		'Seacoast builders - The Best Custom Homes, Renovations & Additions for your Dream Home',
-		url: 'seacoastbuilders.org', // The base URL for your GitHub Pages site
+		url: 'https://seacoastbuilders.org', // The base URL for your GitHub Pages site
   baseUrl: '/seacoast/', // Base URL for your project. Should match your repository name.
   organizationName: 'seacost builders', // Your GitHub organization name
 	projectName: 'seacoast-builders',
